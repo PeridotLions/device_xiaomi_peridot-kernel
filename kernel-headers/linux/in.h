@@ -19,6 +19,11 @@
 #ifndef _LINUX_IN_H
 #define _LINUX_IN_H
 
+#ifndef _IN_ADDR_T_DECLARED
+typedef	uint32_t		in_addr_t;
+#define	_IN_ADDR_T_DECLARED
+#endif
+
 #include <linux/types.h>
 #include <linux/stddef.h>
 #include <linux/libc-compat.h>
